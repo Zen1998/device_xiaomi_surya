@@ -25,6 +25,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.supports_background_blur=1 \
     ro.sf.blurs_are_expensive=1
 
+# IOP properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=true
+
 # ParanoidDoze
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sensor.proximity=true \
