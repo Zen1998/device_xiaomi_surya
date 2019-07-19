@@ -16,6 +16,11 @@ endif
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,org.codeaurora.snapcam
 
+# IOP properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=true
+
 # ParanoidDoze
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sensor.proximity=true \
