@@ -125,6 +125,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor-overlay/etc/init.qcom.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.qcom.rc
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
