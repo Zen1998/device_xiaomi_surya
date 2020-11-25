@@ -59,7 +59,9 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     BluetoothQti \
-    libbtconfigstore
+    libbtconfigstore \
+    libbluetooth_qti \
+    libbt-logClient.so
 
 # Camera
 PRODUCT_PACKAGES += \
