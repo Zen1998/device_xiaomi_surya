@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/superior/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_surya
